@@ -1,0 +1,18 @@
+steps:
+  # Deploy
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+    - 'run'
+    - 'deploy'
+    - 'cloudrunservice'
+    - '--image'
+    - 'us-west2-docker.pkg.dev/$PROJECT_ID/aqi-repo/aqi-image:tag1'
+    - '--region'
+    - 'us-west2'
+    - '--platform' 
+    - 'managed'
+    - '--allow-unauthenticated'
+    - '--port'
+    - '8080'
+    - '--memory'
+    - '1G'
