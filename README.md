@@ -3,7 +3,7 @@ Climate Compass is an innovative web-based application designed to empower users
 
 
 
-🖥️ Key Features
+# Key Features::
 
 
 1) Interactive Dashboard: Visualize key environmental metrics through an intuitive and user-friendly interface.
@@ -18,7 +18,7 @@ Climate Compass is an innovative web-based application designed to empower users
 4) Educational Resources: Learn about the significance of climate data and its impact on daily life and health.
 
 
-📍 Technologies Used
+# Technologies Used::
 
 
 1) Frontend: HTML, CSS, JavaScript (with frameworks like Bootstrap for responsive design)
@@ -35,6 +35,5 @@ Climate Compass is an innovative web-based application designed to empower users
 
 
 
-Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request 🤝.
 
 
